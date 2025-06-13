@@ -1,0 +1,41 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build with baseURL fix
+        run: |
+          # 强制设置 baseURL 为目标域名
+          sed -i 's|baseURL = .*|baseURL = "https://yuanprogram.github.io/"|' config.toml
+          hugo --minify --cleanDestinationDir
+
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_PAT }}
+          external_repository: yuanprogram/yuanprogram.github.io
+          publish_dir: ./public
+          keep_files: false  # 清除目标仓库旧文件
+          force_orphan: true  # 强制清空历史提交
