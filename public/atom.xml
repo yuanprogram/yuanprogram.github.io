@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Yuan&#39;s Blog</title>
+    <subtitle type="html">记录技术思考与生活感悟的个人博客，分享编程经验、技术随笔与成长故事。</subtitle>
+    <updated>2025-06-13T19:32:01&#43;08:00</updated>
+    <id>https://yuanprogram.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://yuanprogram.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://yuanprogram.github.io/atom.xml" />
+    <author>
+            <name>yuan</name>
+            <uri>https://yuanprogram.github.io/</uri>
+            
+                <email>2408170818@qq.com</email>
+            </author>
+    
+    <generator uri="https://gohugo.io/" version="0.147.8">Hugo</generator>
+</feed>

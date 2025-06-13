@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Yuan&#39;s Blog</title>
+        <link>https://yuanprogram.github.io/</link>
+        <description>记录技术思考与生活感悟的个人博客，分享编程经验、技术随笔与成长故事。</description>
+        <generator>Hugo 0.147.8 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>2408170818@qq.com (yuan)</managingEditor>
+        
+        
+            <webMaster>2408170818@qq.com (yuan)</webMaster>
+        
+        
+        <lastBuildDate>Fri, 13 Jun 2025 19:32:01 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://yuanprogram.github.io/rss.xml" />
+        
+        
+    </channel>
+</rss>
