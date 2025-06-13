@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_PAT }}
+          personal_token: ${{ secrets.PAT }}
           external_repository: yuanprogram/yuanprogram.github.io
           publish_dir: ./public
           keep_files: false  # 清除目标仓库旧文件
