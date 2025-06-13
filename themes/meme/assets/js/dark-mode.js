@@ -207,7 +207,7 @@ function changeMode() {
     {{ end }}
 
     // Mermaid
-    // https://github.com/reuixiy/hugo-theme-meme/issues/205
+    // https://github.com/yuanprogram/hugo-theme-meme/issues/205
     if (typeof mermaidConfig !== 'undefined') {
         const mermaids = document.querySelectorAll('.mermaid');
 

@@ -1,6 +1,6 @@
 繁體中文 |
-[简体中文](https://github.com/reuixiy/hugo-theme-meme/blob/master/README.zh-cn.md) |
-[English](https://github.com/reuixiy/hugo-theme-meme/blob/master/README.md)
+[简体中文](https://github.com/yuanprogram/hugo-theme-meme/blob/master/README.zh-cn.md) |
+[English](https://github.com/yuanprogram/hugo-theme-meme/blob/master/README.md)
 
 <div align="center"><img src="https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/static/icons/apple-touch-icon.png" /></div>
 
@@ -50,12 +50,12 @@ https://gohugo.io/getting-started/quick-start/
 ```sh
 ~ $ cd blog
 ~/blog $ git init
-~/blog $ git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+~/blog $ git submodule add --depth 1 https://github.com/yuanprogram/hugo-theme-meme.git themes/meme
 ```
 
 ### 開始寫作
 
-1. 將 `config.toml` 替換為[示例配置](https://github.com/reuixiy/hugo-theme-meme/blob/master/config-examples/zh-cn/config.toml)。
+1. 將 `config.toml` 替換為[示例配置](https://github.com/yuanprogram/hugo-theme-meme/blob/master/config-examples/zh-cn/config.toml)。
 
    ```sh
    ~/blog $ rm config.toml && cp themes/meme/config-examples/zh-cn/config.toml config.toml
@@ -76,7 +76,7 @@ https://gohugo.io/getting-started/quick-start/
 
 ## 定製 MemE
 
-MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/assets/scss/custom/_custom.scss) 檔案以供使用者定製。
+MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案，同時提供一個 [`_custom.scss`](https://github.com/yuanprogram/hugo-theme-meme/blob/master/assets/scss/custom/_custom.scss) 檔案以供使用者定製。
 
 直接新建一個 `~/blog/assets/scss/custom/_custom.scss` 並將你自己的樣式加入其中，就能覆蓋主題的 `~/blog/themes/meme/assets/scss/custom/_custom.scss` 檔案，且其會正確地被應用。
 
@@ -99,19 +99,19 @@ MemE 透過 Hugo 管道實現使用 SCSS 生成 CSS，而非靜態的 CSS 檔案
 2. 重新克隆 MemE
 
    ```sh
-   ~/blog $ git clone --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+   ~/blog $ git clone --depth 1 https://github.com/yuanprogram/hugo-theme-meme.git themes/meme
    ```
 
-**特別注意**：MemE 主題有時會新增一些全新功能或一些毀滅改動，所以在你更新完後，請務必檢查 [`config.toml` 的改動歷史](https://github.com/reuixiy/hugo-theme-meme/commits/master/config-examples)並將相應內容也更新！
+**特別注意**：MemE 主題有時會新增一些全新功能或一些毀滅改動，所以在你更新完後，請務必檢查 [`config.toml` 的改動歷史](https://github.com/yuanprogram/hugo-theme-meme/commits/master/config-examples)並將相應內容也更新！
 
 ## Awesome MemE
 
-請看 [#2](https://github.com/reuixiy/hugo-theme-meme/issues/2)。
+請看 [#2](https://github.com/yuanprogram/hugo-theme-meme/issues/2)。
 
 ## 支援的 Front Matter
 
-請看 <https://github.com/reuixiy/hugo-theme-meme#supported-front-matter>。
+請看 <https://github.com/yuanprogram/hugo-theme-meme#supported-front-matter>。
 
 ## 讚助
 
-請看 <https://github.com/reuixiy/hugo-theme-meme#sponsorship>。
+請看 <https://github.com/yuanprogram/hugo-theme-meme#sponsorship>。

@@ -392,7 +392,7 @@ $baseRelURL: "{{ "" | relURL | strings.TrimSuffix "/" }}";
 {{ end }}
 
 {{ if eq .Site.Params.homeLayout "footage" }}
-    // https://github.com/reuixiy/hugo-theme-meme/issues/51
+    // https://github.com/yuanprogram/hugo-theme-meme/issues/51
     {{ if strings.HasPrefix .Site.Params.homePoster "." }}
         {{ $homePoster := printf `.%s` .Site.Params.homePoster }}
         {{ .Scratch.Set "homePoster" $homePoster }}
@@ -427,7 +427,7 @@ $baseRelURL: "{{ "" | relURL | strings.TrimSuffix "/" }}";
 
 // 404 Page
 
-// https://github.com/reuixiy/hugo-theme-meme/issues/51
+// https://github.com/yuanprogram/hugo-theme-meme/issues/51
 {{ if strings.HasPrefix .Site.Params.fofPoster "." }}
     {{ $fofPoster := printf `.%s` .Site.Params.fofPoster }}
     {{ .Scratch.Set "fofPoster" $fofPoster }}
